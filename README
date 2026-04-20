@@ -1,0 +1,23 @@
+# ⚽ Reserva Tu Cancha
+
+## 📌 Descripción
+Sitio web desarrollado para facilitar la reserva de canchas de fútbol de manera sencilla. Permite a los usuarios ingresar sus datos mediante un formulario y organizar partidos de forma rápida.
+
+## 🚀 Tecnologías utilizadas
+- HTML
+- CSS
+
+## ⚙️ Funcionalidades
+- Navegación entre secciones (Inicio, Información, Reservación)
+- Formulario de reserva con validación de campos
+- Diseño responsive básico
+- Interfaz amigable para el usuario
+
+## 🎯 Objetivo
+Proyecto académico desarrollado para aplicar conceptos de estructura HTML, estilos con CSS y diseño de interfaces web.
+
+## 📸 Vista previa
+preview.png
+
+## 👨‍💻 Autor
+Eduardo Ramírez
