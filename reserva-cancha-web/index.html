@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva Tu Cancha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reserva Tu Cancha</h1>
+        <p>Organiza tu partido de fútbol fácil y rápido</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#reserva">Reservación</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>
+                Reserva Tu Cancha es un sitio web dedicado a facilitar la organización
+                de partidos de fútbol entre amigos. Aquí puedes reservar una cancha
+                de manera sencilla y sin complicaciones.
+            </p>
+        </section>
+        <section id="info">
+            <h2>Sobre nuestras canchas</h2>
+            <p>
+                Contamos con canchas de fútbol 5 en excelentes condiciones,
+                iluminación nocturna y horarios flexibles para que disfrutes
+                el deporte que más te apasiona.
+            </p>
+        </section>
+        <section id="reserva">
+            <h2>Formulario de Reservación</h2>
+
+            <form>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="contacto">Contacto</label>
+                <input type="text" id="contacto" name="contacto" required>
+
+                <label for="fecha">Fecha de reservación</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="personas">Número de personas</label>
+                <input type="number" id="personas" name="personas" min="1" max="10" required>
+
+                <label for="comentarios">Comentarios</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+                <button type="submit">Enviar Reservación</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Eduardo Ramírez | Practica 1</p>
+    </footer>
+
+</body>
+</html>
